@@ -1,0 +1,36 @@
+.player-box {
+  margin: 0.6rem;
+}
+
+.player-box__totalscore, 
+.player-box__currentscore {
+  border-radius: 0.5rem;
+  text-align: center;
+  margin: 0.3rem 0; 
+  display: flex;
+  justify-content: space-around;
+}
+
+.player-box__totalscore {
+  background-color: #2d3a47;
+  border: 2px solid #192128;
+}
+
+.player-box__winner {
+  text-align: center;
+}
+
+.player-box__currentscore {
+  background-color: #415466;
+  border: 2px solid #2d3a47;
+}
+
+@media screen and (orientation: landscape) {
+  .player-box__totalscore, 
+  .player-box__currentscore {
+    display: flex;
+    flex-direction: column;
+    margin: 0.6rem 0;
+  }
+}
+

@@ -1,0 +1,13 @@
+
+.game-panel__dices-box__figure {
+  margin: 0.2rem;
+}
+.game-panel__dices-box__figure__img {
+  width: 100%;
+}
+
+@media screen and (orientation: landscape) {
+  .game-panel__dices-box__figure__img {
+    height: 100%;
+  }
+}

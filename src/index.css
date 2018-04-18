@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&amp;subset=latin-ext');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("sky.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-yellow {
+  color: #f4e11e;
+}
+
+.color-orange {
+  color: #f9b513	;
+}
+
+.color-blue {
+  color: #83a9cc;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+h2 {
+  margin: 0.5rem;
+}
+
+h4 {
+  margin: 0.3rem;
+}
+
+@media screen and (min-width: 450px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 23px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("sky-big.jpg");
+  }
+}
+
+@media screen and (min-height: 900px) and (orientation: portrait) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("sky-big.jpg");
+  }
+}

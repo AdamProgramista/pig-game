@@ -1,0 +1,36 @@
+.btn {
+  margin: 0.2rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 2px #333;
+  color: #a4d4ff;
+  font-size: 1.2rem; 
+  background: #2d3a47;
+  padding: 0.3rem;
+  width: 10rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn__text {
+  margin-left:0.5rem;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  background: #192128;
+}
+
+.btn:hover btn__text {
+  margin-left: 0.6rem;
+}
+
+@media screen and (min-width: 600px) and (orientation: portrait) {
+  .btn {
+    width: 12rem;
+    font-size: 1.5rem;
+  }
+  .btn__text {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,23 @@
+.header {
+  background-color: #192128;
+  display: flex;
+  height: 12vmin;
+  justify-content: center;
+  align-items: center;
+}
+.header__figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3vmin;
+  height: 8vmin;
+}
+
+.header__image {
+  height: 100%;
+}
+
+.header__text {
+  font-size: 8vmin;
+  color: #ffc0cb;
+}
