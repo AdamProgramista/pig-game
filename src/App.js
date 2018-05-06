@@ -69,7 +69,7 @@ class App extends Component {
     const lastPlayer = this.state.scores.length;
     const nextPlayer = (currentPlayer !== lastPlayer) ? currentPlayer+1 : 1;
     const currentPlayerTotalScoreAfterSave = currentPlayerScore.totalScore + currentPlayerScore.currentScore
-    const win = (currentPlayerTotalScoreAfterSave>=10) ? true : false;
+    const win = (currentPlayerTotalScoreAfterSave>=100) ? true : false;
     
     currentPlayerScore = {
       ...currentPlayerScore,
